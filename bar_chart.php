@@ -32,7 +32,7 @@
 
     $chart_url = GenerateChartUrl('something');
 
-    CallBackManyChat($chart_url);
+    echo CallBackManyChat($chart_url);
 
 
 ?>
