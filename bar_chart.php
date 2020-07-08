@@ -16,7 +16,7 @@
                 'messages' => [
                     [
                         'type' => 'image',
-                        'url' => $url,
+                        'url' => "https://quickchart.io/chart?c=".$url,
                         'buttons' => []
                     ]
                 ],
@@ -34,5 +34,6 @@
 
     echo CallBackManyChat($chart_url);
 
+    // https://tom-testing-bot.000webhostapp.com/radar.php
 
 ?>
